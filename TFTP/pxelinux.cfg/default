@@ -1,0 +1,5 @@
+DEFAULT install
+LABEL install
+KERNEL memdisk
+INITRD fdx86.img
+APPEND root=/dev/ram0 ramdisk_size=1500000 ip=dhcp url=https://computernewb.com/isos/dos/FD13LIVE.iso
